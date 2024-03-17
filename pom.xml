@@ -21,7 +21,8 @@
   
 <distributionManagement>
         <repository>
-            <id>demo-maven-releases</id>
+            <id>central</id>
+            <name>demo-maven-releases</name>
             <url>http://192.168.1.6:8081/repository/demo-maven-releases/</url>
         </repository>
     </distributionManagement>
