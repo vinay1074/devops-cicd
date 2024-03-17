@@ -18,7 +18,14 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+  
+<distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://192.168.1.6:8081/repository/demo-maven-releases</url>
+        </repository>
+    </distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
