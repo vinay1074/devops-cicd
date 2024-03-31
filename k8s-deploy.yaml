@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-web
+  namespace: rhelsystemk8s
   labels:
     app: simple-web
 spec:
